@@ -1,15 +1,16 @@
 <div align="center">
+  <!--![foUrqiEw_400x400](https://resources.whatwg.org/logo.svg)-->
+  <img src="https://resources.whatwg.org/logo.svg" width="300" height="300">
 
-  ![foUrqiEw_400x400](https://resources.whatwg.org/logo.svg)
   # ESPECIFICAÇÃO LENDÁRIA DO HTML E DO CSS
 
 </div>
 
 # DESCRIÇÃO
 
-Um breve resumo da especificação do HTML e do CSS utilizando astro e netflify
+Um breve resumo da especificação do HTML e do CSS utilizando as tecnologias astro e netlify.
 
 # LINK
 
-Não foi publicado ainda.:
+Não foi publicado ainda.
 
