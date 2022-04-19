@@ -1,14 +1,15 @@
 <div align="center">
 
-  ![foUrqiEw_400x400](https://user-images.githubusercontent.com/100092662/163741257-0ce1bbaa-0239-4f32-b95b-d12d11768df7.jpg)
+  ![foUrqiEw_400x400](https://resources.whatwg.org/logo.svg)
   # ESPECIFICAÇÃO LENDÁRIA DO HTML E DO CSS
 
 </div>
 
 # DESCRIÇÃO
 
-Em construção!
+Um breve resumo da especificação do HTML e do CSS utilizando astro e netflify
 
 # LINK
 
-Não está publico ainda.
+Não foi publicado ainda.:
+
