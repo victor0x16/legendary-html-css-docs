@@ -4,6 +4,7 @@ import Logo from '../components/Logo.astro';
 import '../styles/global.css';
 import '../styles/home.css';
 import ReactCounter from '../components/ReactCounter.jsx';
+import Code from '../components/Code.jsx';
 
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
@@ -54,20 +55,7 @@ let title = 'Especificações';
 </head>
 <body>
 	<main>
-		<header>
-			<div>
-				<Logo width={60} height={80} />
-				<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-			</div>
-		</header>
-
-		<article>
-			<div class="banner">
-				<p><strong>🧑‍🚀 Seasoned astronaut?</strong> Delete this template and have fun!</p>
-			</div>
-			<TourContent />
-		</article>
-
+		<Code />
 		<!--
 
 		You can also use imported framework components directly in your markup!
