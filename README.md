@@ -8,7 +8,7 @@
 
 # DESCRIÇÃO
 
-Um breve resumo da especificação do HTML e do CSS utilizando as tecnologias astro e netflify.
+Um breve resumo da especificação do HTML e do CSS utilizando as tecnologias astro e netlify.
 
 # LINK
 
