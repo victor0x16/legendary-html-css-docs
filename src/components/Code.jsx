@@ -1,9 +1,8 @@
 export default function Code() {
     return (
         <code>
-           { ```var component = function () \{
-                return <h1>Header</h1>
-            }```}
+            // teste
+            var nome = "html é uma linguagem de programação."
         </code>
     )
 } 
