@@ -5,6 +5,7 @@ import '../styles/global.css';
 import '../styles/home.css';
 import ReactCounter from '../components/ReactCounter.jsx';
 import Code from '../components/Code.jsx';
+import Chapters from '../components/Chapters.jsx';
 
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
@@ -24,28 +25,7 @@ let title = 'Especificações';
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
 	<style>
-		header {
-			display: flex;
-			flex-direction: column;
-			gap: 1em;
-			max-width: min(100%, 68ch);
-		}
-		article {
-			padding-top: 2em;
-			line-height: 1.5;
-			display: flex;
-			flex-direction: column;
-			gap: 1em;
-			max-width: 70ch;
-		}
-		.banner {
-			text-align: center;
-			font-size: 1.2rem;
-			background: var(--color-light);
-			padding: 1em 1.5em;
-			padding-left: 0.75em;
-			border-radius: 4px;
-		}
+	
 	</style>
 	<style is:global>
 		pre {
@@ -54,20 +34,43 @@ let title = 'Especificações';
 	</style>
 </head>
 <body>
+    <div class="temp__warning">
+		Esta documentação está em desenvolvimento.<a href="#"> Para mais detalhes clique aqui!</a>
+	</div>
+	<header>
+		<div class="menu__small__screen">
+			<span class="hamburger"></span>
+			<!--<a href="#">HTML e CSS</a>-->
+		</div>
+		<nav class="navbar">
+			<ul class="menu">
+				<div class="menu__left">
+					<li><a href="#">HTML e CSS</a></li>
+				</div>
+				<div class="menu__right">
+					<li><a href="#">Documentação</a></li>
+					<li><a href="#">Ajuda</a></li>
+					<li><a href="#">GitHub</a></li>
+					<li>
+					<a href="#">
+						Dark/light
+					</a>
+					</li>
+					<li><a href="#">searching</a></li>
+				</div>
+			</ul>
+		</nav>
+	</header>
 	<main>
-		<Code />
-		<!--
+	  <div class="chapter">
+		<!--<Chapters />-->
+	  </div>
+	  <div class="content">
+	  
+	  </div>
+	  <div class="chapter__right">
 
-		You can also use imported framework components directly in your markup!
-		
-		Note: by default, these components are NOT interactive on the client.
-		The `client:visible` directive tells Astro to make it interactive.
-		
-		See https://docs.astro.build/core-concepts/component-hydration/ 
-
-		-->
-
-		<ReactCounter client:load />
+	  </div>
 	</main>
 </body>
 </html>
