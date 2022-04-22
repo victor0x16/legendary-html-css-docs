@@ -1,7 +1,7 @@
 export const SITE = {
-	title: 'Your Documentation Website',
-	description: 'Your website description.',
-	defaultLanguage: 'en_US',
+	title: 'HTML e CSS',
+	description: 'Um resumo de duas ótimas especificações',
+	defaultLanguage: 'pt-BR',
 };
 
 export const OPEN_GRAPH = {
@@ -16,6 +16,7 @@ export const OPEN_GRAPH = {
 
 export const KNOWN_LANGUAGES = {
 	English: 'en',
+	'Português do Brasil': 'pt-BR'
 };
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
@@ -33,7 +34,7 @@ export const KNOWN_LANGUAGES = {
 // }
 
 export const SIDEBAR = {
-	en: [
+ 	en: [
 		{ text: '', header: true },
 		{ text: 'Section Header', header: true },
 		{ text: 'Introduction', link: 'en/introduction' },
@@ -43,4 +44,14 @@ export const SIDEBAR = {
 		{ text: 'Another Section', header: true },
 		{ text: 'Page 4', link: 'en/page-4' },
 	],
+	'pt-BR': [
+		{ text: '', header: true },
+		{ text: 'Bem-vindo', header: true },
+		{ text: 'Sobre', link: 'pt-BR/documentation-intro' },
+
+		{ text: 'Especificação do HTML', header: true },
+		{ text: 'Especificação do CSS', header: true },
+	],
+
+
 };
