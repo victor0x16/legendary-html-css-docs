@@ -10,5 +10,5 @@ export default defineConfig({
 		// Enable React for the Algolia search component.
 		react(),
 	],
-    site: 'https://62633ea90b1a210008f1c2ee--delightful-pavlova-98661a.netlify.app'
+    site: 'https://delightful-pavlova-98661a.netlify.app'
 });
